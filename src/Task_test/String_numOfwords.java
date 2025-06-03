@@ -17,7 +17,9 @@ public class String_numOfwords {
         }
         if (sb.charAt(0)!=' '){
             count++;
-            System.out.print("First Character of each words are: "+sb.charAt(0));
+            System.out.print("First Character of each words are: "+
+
+                    sb.charAt(0));
         }
         for(int i=0; i<sb.length()-1;i++){
             if(sb.charAt(i) == ' '&& sb.charAt(i+1)!=' '){
